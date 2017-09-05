@@ -1,0 +1,131 @@
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-analytics-blue {
+    width: 70px;
+    height: 73px;
+    background-position: -5px -5px;
+    position: relative;
+    z-index: 40;
+    display: inline-block;
+}
+
+.sprite-analytics-green {
+    width: 70px;
+    height: 73px;
+    background-position: -85px -5px;
+    position: relative;
+    z-index: 11;
+    display: inline-block;
+}
+
+.sprite-chat-blue {
+    width: 70px;
+    height: 73px;
+    background-position: -165px -5px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-chat-green {
+    width: 70px;
+    height: 73px;
+    background-position: -5px -88px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-customers-blue {
+    width: 70px;
+    height: 73px;
+    background-position: -85px -88px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-customers-green {
+    width: 70px;
+    height: 73px;
+    background-position: -165px -88px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-dashboard-blue {
+    width: 70px;
+    height: 73px;
+    background-position: -5px -171px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-dashboard-green {
+    width: 70px;
+    height: 73px;
+    background-position: -85px -171px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-page-blue {
+    width: 70px;
+    height: 73px;
+    background-position: -165px -171px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-page-green {
+    width: 70px;
+    height: 73px;
+    background-position: -245px -5px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-promo-blue {
+    width: 70px;
+    height: 73px;
+    background-position: -245px -88px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-promo-green {
+    width: 70px;
+    height: 73px;
+    background-position: -245px -171px;
+    position: relative;
+    z-index: 12;
+    display: inline-block;
+}
+
+.sprite-question {
+    width: 24px;
+    height: 24px;
+    background-position: -325px -5px;
+    position: relative;
+    z-index: 12;
+    margin-left: 85%;
+}
+
+.sprite-settings {
+    width: 24px;
+    height: 24px;
+    background-position: -325px -39px;
+    position: relative;
+    z-index: 12;
+    margin-left: 90%;
+}

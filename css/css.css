@@ -1,0 +1,297 @@
+body, html{
+	font-family: "Myriad Pro", "Myriad", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+	
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+nav {
+	color: white;
+	font-weight: 600;
+}
+
+#menu-top {
+	background:url(../images/menu-bar-top.png); 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 20%;
+	display: block;
+	color:white;
+/*	-webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;*/
+}
+
+/*.menu-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(10%);
+}*/
+
+.mini {
+	margin-left: 70%;
+}
+
+.top-icons {
+}
+
+#menu-bottom {
+	background:url(../images/menu-bar-bottom.png); 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.menu-icons {
+	padding-top: 2%;
+	padding-bottom: 1%;
+	text-align: center;
+}
+
+.Spacer {
+	background-color: rgb(28, 133, 216);
+	position: absolute;
+	top: 1%; 
+	width: 1px;
+	height: 20px;
+}
+
+.dashboard {
+	 background-color: #33cc66;
+	 color: white;
+	 font-weight: 300;
+	 height: 20%;
+	 border-radius: 6px 6px 6px 6px;
+	 margin-top: 20px;
+	 margin-right: 10%;
+	 margin-left: 8%;
+}
+
+@media (max-width: 768px) {
+	.dashboard {
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+
+.dashboard input[type=submit] {
+  /*   no-repeat scroll 0 0 transparent;*/
+	border:none;
+	background:url(../images/search.png);
+	background: 100% 100%;
+	background-color: transparent;
+}
+
+.dashboard button {
+	
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid #2db55b;
+    border-left: 0px;
+    background: #f4f4f4;
+    display: inline-block;
+    height: 100%;
+    margin-top: 10%;
+}
+
+input[type=search]{
+	border: 0;
+	border: 1px solid #2db55b;
+	border-right: 0px;
+	border-radius: 3px 0px 0px 3px;
+	background: #f4f4f4;
+	display: inline-block;
+	width: 60%;
+	height: 50%;
+}
+
+
+#main-background-gradient {
+	background:url(../images/main-background-gradient.png); 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-left: 7%;
+	margin-right: 9%;
+	border-radius: 7px 7px;
+	height: 100%;
+}
+
+.main-content-container {
+	border-right: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+	padding-top: 10px;
+	margin-right: 20px; 
+	margin-left: 20px;
+}
+
+.main-content-container .col-md-2{
+	background-color: #fff;
+	padding-top: 10px;
+	text-transform: uppercase;
+	color: #f37f13;
+	text-align: center;
+	border: 1px solid #eeeeee;
+	border-left, border-bottom: 0px;
+	padding-top: 12px;
+	padding-bottom: 1px;
+}
+
+.main-content-container .col-md-9{
+	background-color: #fff;
+	padding-top: 10px;
+	color: #777777;
+	text-align: left;
+	border: 1px solid #eeeeee;
+	border-left: 0px;
+	border-right: 0px;
+	padding-top: 12px;
+	padding-bottom: 1px;
+}
+
+.main-content-container .col-md-1 {
+	background-color: #fff;
+	padding-top: 10px;
+	text-align: center;
+	border: 1px solid #eeeeee;
+	padding-top: 12px;
+	padding-bottom: 5px;
+}
+
+.main-content-container .col-md-1 .arrow-button-left {
+	background: url(../images/button-left.png);
+	border: none;
+	background-color: transparent;
+	height: 22px;
+	width: 22px;
+}
+
+.main-content-container .col-md-1 .arrow-button-right {
+	background: url(../images/button-right.png);
+	border: none;
+	background-color: transparent;
+	height: 22px;
+	width: 22px;
+}
+
+.main-content-container .col-md-4 {
+	background-color: #fff;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	border-right: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+
+}
+
+.main-content-container .col-md-4, .col-md-8 .blue {
+	color: #2498f4;
+}
+.grey-upon-hover h3{
+	color: #2498f4;
+	text-decoration: none; 
+}
+
+.grey-upon-hover h3:hover{
+	color: #cccccc;
+	text-decoration: none; 
+}
+.main-content-container .col-md-8 {
+	background-color: #fff;
+	padding-top: 2px;
+}
+
+.tasks-row {
+	background-color: #fff;
+	padding-left: 10px;
+	padding-right: 5px;
+	margin-top: 0;
+	padding-top: 0;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.tasks-row:hover, .grey-upon-hover:hover {
+	color: #cccccc;
+	text-decoration: none; 
+}
+
+.tasks-row, .grey-upon-hover a:link {
+	color: #2498f4;
+	text-decoration: none; 
+}
+
+.tasks-row, .grey-upon-hover a:visited {
+	color: #2498f4;
+	text-decoration: none; 
+}
+
+.tasks-row, .grey-upon-hover a:hover {
+	color: #cccccc;
+	text-decoration: none; 
+}
+
+.tasks-row, .grey-upon-hover a:active {
+	color: #cccccc;
+	text-decoration: none; 
+}
+
+
+.gear-button {
+	background: url(../images/tasks-gear.png);
+	border: none;
+	background-color: transparent;
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin-top: 2%;
+}
+
+.reccs-row {
+	background-color: #fff;
+	padding-right: 5px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.reccs-row-2{
+	color: #777777;
+	background-color: #fff;
+	padding-right: 5px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.bottom-dashed{
+    margin-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;/*  << you can specify how far from the left you want the line to be */
+    border: 0;
+    border-bottom: 2px dotted #eeeeee; /* you may match this border with the right border of the <div>*/
+}
+
+/*
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+*/
+
+.number-span{
+	display: inline-block;
+}
+
+
+.checkbox-orange {
+	background:url(); /*empty box*/
+	/* margins, padding, border... all to 0*/
+
+}
+/* on click: background image is checked*/
+
+.checkbox-orange:selected /*maybe :clicked*/{
+
+}
