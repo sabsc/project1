@@ -129,11 +129,22 @@ input[type=search]{
 	margin-left: 20px;
 }
 
-.main-content-container .col-md-2{
+/*.main-content-container .col-md-2 {
 	background-color: #fff;
 	padding-top: 10px;
+	text-align: center;
+	border: 1px solid #eeeeee;
+	border-left, border-bottom: 0px;
+	padding-top: 12px;
+	padding-bottom: 1px;
+}*/
+
+.announcements-top {
 	text-transform: uppercase;
 	color: #f37f13;
+
+	background-color: #fff;
+	padding-top: 10px;
 	text-align: center;
 	border: 1px solid #eeeeee;
 	border-left, border-bottom: 0px;
@@ -141,7 +152,7 @@ input[type=search]{
 	padding-bottom: 1px;
 }
 
-.main-content-container .col-md-9{
+.main-content-container .announcement-tron {
 	background-color: #fff;
 	padding-top: 10px;
 	color: #777777;
@@ -153,7 +164,7 @@ input[type=search]{
 	padding-bottom: 1px;
 }
 
-.main-content-container .col-md-1 {
+.main-content-container .announcement-buttons {
 	background-color: #fff;
 	padding-top: 10px;
 	text-align: center;
@@ -187,7 +198,7 @@ input[type=search]{
 
 }
 
-.main-content-container .col-md-4, .col-md-8 .blue {
+.main-content-container .tasks-title, .analytics-title .blue {
 	color: #2498f4;
 }
 .grey-upon-hover h3{
@@ -199,7 +210,7 @@ input[type=search]{
 	color: #cccccc;
 	text-decoration: none; 
 }
-.main-content-container .col-md-8 {
+.main-content-container .analytics-title {
 	background-color: #fff;
 	padding-top: 2px;
 }
@@ -249,11 +260,116 @@ input[type=search]{
 	margin-top: 2%;
 }
 
+.tasks-row-1:hover .sprite-green-1 {
+	background-position: -73px -5px;
+}
+
+.tasks-row-1 .welcome-contacts {
+	background:url(../images/tasks-icons/welcome-contacts-default.png);
+	background-color: transparent;
+	height: 30px;
+	width: 60px;
+	float: right;
+}
+
+.tasks-row-1:hover .welcome-contacts {
+	background:url(../images/tasks-icons/welcome-contacts.png);
+	background-color: transparent;
+	height: 30px;
+	width: 60px;
+	float: right;
+}
+
+.tasks-row-2:hover .sprite-green-2 {
+	background-position: -73px -39px;
+}
+
+.tasks-row-2 .responses {
+	background:url(../images/tasks-icons/responses-default.png);
+	background-color: transparent;
+	height: 30px;
+	width: 60px;
+	float: right;
+}
+
+.tasks-row-2:hover .responses {
+	background:url(../images/tasks-icons/responses-hover.png);
+	background-color: transparent;
+	height: 30px;
+	width: 60px;
+	float: right;
+}
+
+.tasks-row-3:hover .sprite-green-3 {
+	background-position: -5px -73px;
+}
+
+.tasks-row-3 .review {
+	background:url(../images/tasks-icons/responses-default.png);
+	background-color: transparent;
+	height: 30px;
+	width: 60px;
+	float: right;
+}
+
+.tasks-row-3:hover .review {
+	background:url(../images/tasks-icons/responses-hover.png);
+	background-color: transparent;
+	height: 30px;
+	width: 60px;
+	float: right;
+}
+
+.tasks-row-4:hover .sprite-green-4 {
+	background-position: -39px -73px;
+}
+
+.tasks-row-4 .reach-out {
+	background:url(../images/tasks-icons/reach-default.png);
+	background-color: transparent;
+	height: 30px;
+	width: 60px;
+	float: right;
+}
+
+.tasks-row-4:hover .reach-out {
+	background:url(../images/tasks-icons/reach-hover.png);
+	background-color: transparent;
+	height: 30px;
+	width: 60px;
+	float: right;
+}
+
 .reccs-row {
 	background-color: #fff;
 	padding-right: 5px;
 	margin-top: 0;
 	padding-top: 0;
+
+}
+
+.recc-link:hover{
+	text-decoration: none;
+}
+
+.recc-link a:link {
+	color: #777777;
+	text-decoration: none; 
+}
+
+.recc-link a:visited {
+	color: #777777;
+	text-decoration: none; 
+}
+
+.recc-link a:hover {
+	color: #cccccc;
+	text-decoration: none; 
+}
+
+.recc-link a:active {
+	color: #cccccc;
+	text-decoration: none; 
 }
 
 .reccs-row-2{
@@ -264,10 +380,19 @@ input[type=search]{
 	padding-top: 0;
 }
 
+.recc-top-text {
+	font-size: .8em;
+	margin-bottom: 0;
+}
+
+.recc-bottom-text {
+	font-size: 1.2em;
+}
+
 .bottom-dashed{
     margin-bottom: 0;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-left: 5px;/*  << you can specify how far from the left you want the line to be */
     border: 0;
     border-bottom: 2px dotted #eeeeee; /* you may match this border with the right border of the <div>*/
@@ -280,18 +405,169 @@ a:hover - a link when the user mouses over it
 a:active - a link the moment it is clicked
 */
 
+
+.push-right-a-lil-bit{
+	padding-left: 4%;
+}
+
+.push-left-a-lil-bit{
+	margin-left: -20px;
+}
+
+
+.push-right-some{
+	padding-left: 2%;
+}
+
+.push-left-some{
+	margin-left: 2%;
+}
+
 .number-span{
 	display: inline-block;
 }
 
+.grey-uppercase {
+	text-transform: uppercase;
+	font-size: .9em;
+	color: #999;
+	margin-left: 3%;
+}
 
-.checkbox-orange {
-	background:url(); /*empty box*/
+/*.analytics-image {
+	background: url(../images/analytics-image.png);
+	background-size: contain;
+}*/
+@supports (pointer-events: none) and
+	  ((-webkit-appearance: none) or
+	  (-moz-appearance: none) or
+	  (appearance: none)) {
+
+	.orange-dropdown {
+		position: absolute;
+	    display: inline-block;
+	    vertical-align: middle;
+	}
+
+	.orange-dropdown select{
+		background-color: #fff;
+		color: #666666;
+		border-top: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		border-radius: 2px 0px 0px 2px;
+		padding: .3em 2.5em .2em .8em;
+		height: 2em;
+		-webkit-appearance: button;
+		border-right: 1px solid #f5f5f5;
+		text-overflow: '';
+		-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none; 
+	}
+
+	.custom-dropdown::before,
+		.custom-dropdown::after {
+			content: "";
+			position: absolute;
+			pointer-events: none;
+		}
+
+	.orange-dropdown:after {
+		/*background:url(../images/dropdown-arrow.png);*/
+		 content: url(../images/dropdown-arrow.png);
+	  padding-right: 5px;
+	  padding-left: 3px;
+	  padding-top: 6px;
+	  padding-bottom: 5px;
+	  top: 50%;
+	  margin-top: 1em;
+	  margin-left: -1.2em;
+	  border-top: 1px solid #ddd;
+	  border-right: 1px solid #ddd;
+	  border-bottom: 1px solid #ddd;
+	  border-radius: 0px 2px 2px 0px;
+	}
+
+	.orange-drowndown::before {
+	  width: 2em;
+	  right: 2em;
+	  top: 0;
+	  bottom: 0;
+	  left: -1.2em;
+	  border-radius: 0 2px 2px 0;
+	}
+}
+
+.left-to-right {
+	height: 230px;
+    border-width: 3px 0 3px 3px;
+    border-style: solid;
+    -webkit-border-image:
+      -webkit-gradient(linear, 100% 0, 0 0, from(#dddddd), to(#f6f6f6)) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(right, #ddd, #f6f6f6) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(right, #ddd, #f6f6f6) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(right, #ddd, #f6f6f6) 1 100%;
+    border-image:
+      linear-gradient(to right, #ddd, #f6f6f6) 1 100%; 
+}
+
+
+/*
+.img-fit {
+	object-fit: contain;
+}*/
+
+
+.myCheckbox input {
+    // display: none;
+    // Better than display: none for accessibility reasons
+    position: relative;
+    z-index: -9999;
+}
+
+.myCheckbox span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("link_to_image");
+}
+
+.myCheckbox input:checked + span {
+    background: url("link_to_another_image");
+}
+
+
+.checkbox-orange input {
+	display:none;
+	 /*empty box*/
 	/* margins, padding, border... all to 0*/
 
 }
+.checkbox-orange span {
+	display: inline-block;
+	background:url(../images/checkmark-2-unchecked.png);
+	height: 21px;
+	width: 22px;
+}
+
 /* on click: background image is checked*/
 
-.checkbox-orange:selected /*maybe :clicked*/{
-
+.checkbox-orange input:checked + span /*maybe :clicked*/{
+	height: 21px;
+	width: 22px;
+	background:url(../images/checkmark-2-checked.png);
 }
+
+
+
+
+.side-box-clip {
+	background-color: #218fe6;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 32% 50%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 32% 50%);
+}
+
