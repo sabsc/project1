@@ -516,31 +516,6 @@ a:active - a link the moment it is clicked
 }
 
 
-/*
-.img-fit {
-	object-fit: contain;
-}*/
-
-
-.myCheckbox input {
-    // display: none;
-    // Better than display: none for accessibility reasons
-    position: relative;
-    z-index: -9999;
-}
-
-.myCheckbox span {
-    width: 20px;
-    height: 20px;
-    display: block;
-    background: url("link_to_image");
-}
-
-.myCheckbox input:checked + span {
-    background: url("link_to_another_image");
-}
-
-
 .checkbox-orange input {
 	display:none;
 	 /*empty box*/
@@ -562,7 +537,28 @@ a:active - a link the moment it is clicked
 	background:url(../images/checkmark-2-checked.png);
 }
 
+label[for=fb] img{
+	padding-bottom: 12px;
+	padding-right: 1em;
+}
 
+label[for=twitter] img{
+	padding-bottom: 12px;
+	padding-right: 1em;
+}
+
+label[for=foursquare] img{
+	padding-bottom: 12px;
+	padding-right: 1em;
+}
+
+label[for=googleplus] img{
+	padding-bottom: 12px;
+}
+
+.centered-checkboxes {
+	text-align: center;
+}
 
 
 .side-box-clip {
@@ -571,3 +567,106 @@ a:active - a link the moment it is clicked
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 32% 50%);
 }
 
+.contacts-customers-box-container {
+	background-color: transparent;
+	height: 80%;
+	width: 96%;
+	margin-top: 10%;
+	margin-bottom: 6%;
+}
+
+.con-cus-white-box {
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #f3f3f3;
+	border-bottom: 1px solid #b2b2b2;
+	background-color: white;
+	border-radius: 5px;
+	height: 100%;
+	width: 100%;
+	-webkit-box-shadow: 0px 1px 2px 1px #d9d9d9;
+	-moz-box-shadow: 0px 1px 2px 1px #d9d9d9;
+	box-shadow: 0px 1px 2px 1px #d9d9d9;
+}
+
+.conatainer-for-didyk {
+	height: 80%;
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+.blue-did-you-know {
+	background-color: #2498f4;
+	/*background:url(../images/ticket-background.png);
+	background-repeat: no-repeat;*/
+	background-size: 100% 100%;
+	border-radius: 5px;
+	border: 0;
+	height: 100%;
+/*	width: 100%;*/
+	position: relative;
+	/*display: table;*/
+	min-height: 170px;
+}
+
+.analytics-bottom-two-boxes-top-border {
+	border-top: 1px solid #e9e9e9;
+}
+
+.did-you-know-top-text {
+	color: white;
+	font-size: .9em;
+	text-transform: uppercase;
+	margin-left: 10%;
+	padding-top: 4em;
+	line-height: .1em;
+}
+
+.did-you-know-body-text {
+	color: white;
+	font-size: 1.1em;
+	margin-left: 10%;
+	padding-bottom: 1em;
+	margin-right: 10%;
+}
+
+.did-you-know-left-button-container {
+	position: absolute;
+	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+    left: 0;
+	background-color: white;
+	height: 4em;
+	width: 2em;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.did-you-know-left-button-container img {
+	position: absolute;
+	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.did-you-know-right-button-container {
+	position: absolute;
+	float: left;
+	top: 36%;
+    right: 0;
+	background-color: white;
+	height: 4em;
+	width: 2em;
+	background-color: white;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+}
+
+.did-you-know-right-button-container img { 
+	position: absolute;
+	right:0;
+	top: 50%;
+	transform: translateY(-50%);
+}
