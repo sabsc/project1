@@ -1,6 +1,5 @@
 body, html{
 	font-family: "Myriad Pro", "Myriad", "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
-	
 	height: 100%;
 	width: 100%;
 	margin: 0px;
@@ -112,22 +111,31 @@ input[type=search]{
 
 #main-background-gradient {
 	background:url(../images/main-background-gradient.png); 
-	background-size: 100% 100%;
+	/*background: #f6f6f6;
+	background: -webkit-linear-gradient(#f6f6f6, #fff);
+    background: -o-linear-gradient(#f6f6f6, #fff); 
+    background: -moz-linear-gradient(#f6f6f6, #fff); 
+    background: linear-gradient(#f6f6f6, #fff); */
+	background-size: 100% 30%;
 	background-repeat: no-repeat;
 	margin-top: 20px;
 	margin-left: 7%;
 	margin-right: 9%;
-	border-radius: 7px 7px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	/*border-radius: 30px;*/
 	height: 100%;
 }
+
 
 .main-content-container {
 	border-right: 1px solid #efefef;
 	border-left: 1px solid #efefef;
-	padding-top: 10px;
+	margin-top: 10px;
 	margin-right: 20px; 
 	margin-left: 20px;
 }
+
 
 /*.main-content-container .col-md-2 {
 	background-color: #fff;
@@ -824,6 +832,9 @@ label[for=googleplus] img{
 	min-height: 150px;
 	width: 100%;
 	margin-bottom: 40px;
+	-webkit-box-shadow: 0px 1px 1px 1px #196aaa;
+	-moz-box-shadow: 0px 1px 1px 1px #196aaa;
+	box-shadow: 0px 1px 1px 1px #196aaa;
 }
 
 .watch-wat-u-say {
@@ -853,15 +864,162 @@ label[for=googleplus] img{
 
 .grey-background-bottom-bar {
 	margin-top: 20px;
-	background-color: #f9f9f9;
+	background: #f9f9f9;
+	background: -webkit-linear-gradient(#f5f5f5, #fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f5f5f5, #fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f5f5f5, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f5f5f5, #fff); /* Standard syntax */
 	background-size: cover;
 	width: 100%;
-	min-height: 3.1em;
+	height: 3.1em;
 	margin-left: 0;
 	margin-right: 0;
 	border-top: 1px solid #f1f1f1;
+	-webkit-box-shadow: 0px -6px 6px -5px rgba(226,226,226,1);
+-moz-box-shadow: 0px -6px 6px -5px rgba(226,226,226,1);
+box-shadow: 0px -6px 6px -5px rgba(226,226,226,1);
+	position: relative;
 }
 
 .lil-white-line-at-top {
 	border-top: .2em solid #fbfbfb;
 }
+
+.bottom-banner-text {
+	color: #999999;
+}
+
+.but-on-the-right-tho {
+	padding-left: 10%;
+	border-right: 1px solid #ddd;
+	height: 100%;
+	padding-top: .7em;
+}
+
+.grey-spacey-space {
+	background-color: #dddddd;
+	position: absolute;
+	width: 1px;
+	height: 22px;
+	bottom: .75em;
+	margin-right: 2em;
+}
+
+.bottom-and-center-boi {
+	padding-left: 4%;
+	border-right: 1px solid #ddd;
+	height: 100%;
+	padding-top: .7em;
+}
+
+.some-777777-text {
+	color: #777777;
+}
+
+#pls-stop-being-block {
+	display: inline-block;
+	float:left;
+	margin-left:-5px;
+	padding-left:0;
+	margin-right: 5px;
+	margin-top: -5px;
+	height: 30px;
+	width: 30px;
+}
+
+.same-color-tut-sup-blog-tho a {
+	color: #999;
+	text-decoration: none;
+}
+
+.same-color-logout-tho a {
+	color: #2498f2;
+	text-decoration: none;
+}
+
+.some-777777-text b {
+	color: #2498f2;
+	font-weight: 600;
+}
+
+.ok-throw-in-some-right-borders-at-the-end {
+	border-right: 1px solid #ddd;
+	height: 100%;
+	padding-top: .7em;
+}
+
+.last-social-media-iconz {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.fb-icon {
+	background:url(../images/bottom-icons/fb-grey.png);
+	float: left;
+	height: 16px;
+	width: 16px;
+	z-index: 30;
+	margin-right: .2em;
+}
+
+.fb-icon:hover {
+	background:url(../images/bottom-icons/fb-roll.png);
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin-right: .2em;
+}
+
+.t-icon {
+	background:url(../images/bottom-icons/t-grey.png);
+	float: left;
+	height: 16px;
+	width: 16px;
+	z-index: 30;
+	margin-right: .2em;
+}
+
+.check-icon:hover {
+	background:url(../images/bottom-icons/check-roll.png);
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin-right: .2em;
+}
+
+.check-icon {
+	background:url(../images/bottom-icons/check-grey.png);
+	float: left;
+	height: 16px;
+	width: 16px;
+	z-index: 30;
+	margin-right: .2em;
+}
+
+.t-icon:hover {
+	background:url(../images/bottom-icons/t-roll.png);
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin-right: .2em;
+}
+
+.yt-icon {
+	background:url(../images/bottom-icons/yt-grey.png);
+	float: left;
+	height: 16px;
+	width: 16px;
+	z-index: 30;
+	margin-left: .02em;
+}
+
+.yt-icon:hover {
+	background:url(../images/bottom-icons/yt-roll.png);
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin-left: .02em;
+}
+
