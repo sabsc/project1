@@ -140,16 +140,18 @@
     width: 24px;
     height: 24px;
     background-position: -325px -5px;
-    position: relative;
+    position: absolute;
     z-index: 12;
     margin-left: 85%;
+    display: inline-block;
 }
 
 .sprite-settings {
     width: 24px;
     height: 24px;
     background-position: -325px -39px;
-    position: relative;
+    position: absolute;
     z-index: 12;
     margin-left: 90%;
+    display: inline-block;
 }

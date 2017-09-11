@@ -16,7 +16,7 @@ nav {
 	background:url(../images/menu-bar-top.png); 
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	height: 20%;
+	min-height: 2.8em;
 	display: block;
 	color:white;
 /*	-webkit-transform-style: preserve-3d;
@@ -32,10 +32,37 @@ nav {
 }*/
 
 .mini {
-	margin-left: 70%;
+	padding-left: 70%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.mini b{
+	font-weight: 600;
 }
 
 .top-icons {
+	position: relative;
+}
+
+.sprite-settings-icon {
+	margin-right: 2em;
+	margin-left: 80%;
+	float: left;
+	margin-top: .5em;
+	top: 1em;
+	margin-bottom: 2.2em;
+}
+
+.sprite-question-icon {
+	margin-right: 2em;
+	margin-left: 83%;
+	float: left;
+	margin-top: -2.2em;
+	/*top: 1em;
+	margin-bottom: 2.2em;*/
+	display:inline-block;
 }
 
 #menu-bottom {
@@ -54,9 +81,11 @@ nav {
 .Spacer {
 	background-color: rgb(28, 133, 216);
 	position: absolute;
-	top: 1%; 
+	top: .6em; 
 	width: 1px;
-	height: 20px;
+	height: 24px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .dashboard {
@@ -78,8 +107,7 @@ nav {
 }
 
 
-.dashboard input[type=submit] {
-  /*   no-repeat scroll 0 0 transparent;*/
+/*.dashboard input[type=submit] {
 	border:none;
 	background:url(../images/search.png);
 	background: 100% 100%;
@@ -95,7 +123,45 @@ nav {
     display: inline-block;
     height: 100%;
     margin-top: 10%;
+}*/
+
+/*#custom-search {
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
 }
+
+#custom-search input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search .glyphicon-search{
+    background: url(../images/search.png);
+}
+
+#custom-search .glyphicon-search-2 {
+	background: url(../images/search.png);
+	height: 24px;
+	width: 24px;
+}*/
 
 input[type=search]{
 	border: 0;
@@ -108,6 +174,43 @@ input[type=search]{
 	height: 50%;
 }
 
+.input-group-addon {
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #f4f4f4;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    border: 1px solid #2db55b;
+	border-left: 0;
+	padding-left: .5em;
+	padding-right: .5em;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	-webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+   /* height: 1em;*/
+}
+
+.form-control {
+	background-color: #f4f4f4;
+	border-radius: 2px;
+	height: 2.5em;
+	border: 1px solid #2db55b;
+	border-right: 0;
+
+	-webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+
+.input-group {
+
+	transform: translateY(50%);
+}
 
 #main-background-gradient {
 	background:url(../images/main-background-gradient.png); 
@@ -456,7 +559,7 @@ a:active - a link the moment it is clicked
 	    display: inline-block;
 	    vertical-align: middle;
 	}
-
+/*
 	.orange-dropdown select{
 		background-color: #fff;
 		color: #666666;
@@ -472,7 +575,7 @@ a:active - a link the moment it is clicked
 		-webkit-appearance: none;
 			-moz-appearance: none;
 			appearance: none; 
-	}
+	}*/
 
 	.custom-dropdown::before,
 		.custom-dropdown::after {
@@ -505,6 +608,44 @@ a:active - a link the moment it is clicked
 	  left: -1.2em;
 	  border-radius: 0 2px 2px 0;
 	}
+}
+
+.dropdown {
+	display: inline-block;
+	margin-left: 50%;
+}
+
+.btn {
+	background-color: white;
+	color: #666;
+	border: 1px solid #dddddd;
+}
+
+.btn:hover {
+	background-color: white;
+	color: #666;
+	border: 1px solid #dddddd;
+}
+
+
+.open>.dropdown-toggle.btn-primary:hover {
+	background-color: white;
+		color: #666;
+	border: 1px solid #dddddd;
+}
+
+.open>.dropdown-toggle.btn-primary:focus {
+	background: white;
+	background-color: white;
+	color: #666;
+	border: 1px solid #dddddd;
+}
+
+
+.open>.dropdown-toggle.btn-primary:active  {
+	background-color: white !important;
+	color: #666;
+	border: 1px solid #dddddd;
 }
 
 .left-to-right {
