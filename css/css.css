@@ -78,6 +78,14 @@ nav {
 	text-align: center;
 }
 
+.menu-marker {
+	background:url(../images/marker.png);
+	height: 10px;
+	width: 40px;
+	float: left;
+	margin-left: 30%;
+}
+
 .Spacer {
 	background-color: rgb(28, 133, 216);
 	position: absolute;
@@ -238,6 +246,8 @@ input[type=search]{
 	margin-right: 20px; 
 	margin-left: 20px;
 	box-shadow: 0px 2px 3px 1px #efefef;
+	top: 5%;
+	transform: translateY(1.4%);
 }
 
 
@@ -385,6 +395,7 @@ input[type=search]{
 	background-color: transparent;
 	height: 30px;
 	width: 60px;
+	transform: translateY(-5%);
 	float: right;
 }
 
@@ -393,6 +404,7 @@ input[type=search]{
 	background-color: transparent;
 	height: 30px;
 	width: 60px;
+	transform: translateY(-5%);
 	float: right;
 }
 
@@ -405,6 +417,7 @@ input[type=search]{
 	background-color: transparent;
 	height: 30px;
 	width: 60px;
+	transform: translateY(-5%);
 	float: right;
 }
 
@@ -413,6 +426,7 @@ input[type=search]{
 	background-color: transparent;
 	height: 30px;
 	width: 60px;
+	transform: translateY(-5%);
 	float: right;
 }
 
@@ -425,6 +439,7 @@ input[type=search]{
 	background-color: transparent;
 	height: 30px;
 	width: 60px;
+	transform: translateY(-5%);
 	float: right;
 }
 
@@ -433,6 +448,7 @@ input[type=search]{
 	background-color: transparent;
 	height: 30px;
 	width: 60px;
+	transform: translateY(-5%);
 	float: right;
 }
 
@@ -445,6 +461,7 @@ input[type=search]{
 	background-color: transparent;
 	height: 30px;
 	width: 60px;
+	transform: translateY(-5%);
 	float: right;
 }
 
@@ -453,6 +470,7 @@ input[type=search]{
 	background-color: transparent;
 	height: 30px;
 	width: 60px;
+	transform: translateY(-5%);
 	float: right;
 }
 
@@ -539,8 +557,9 @@ a:active - a link the moment it is clicked
 	margin-left: 2%;
 }
 
-.number-span{
+.tasks-text-span{
 	display: inline-block;
+	transform: translateY(-10%);
 }
 
 .grey-uppercase {
@@ -725,8 +744,8 @@ label[for=googleplus] img{
 	margin-left: -5%;
 	height: 20%;
 	min-width: 5.1%;
-	top: 29.3%;
-	transform: translateY(-70.7%);
+	top: 35.9%;
+	transform: translateY(-64.1%);
 	z-index: 30;
 }
 
@@ -740,8 +759,8 @@ label[for=googleplus] img{
 	/*margin-right: 5%;*/
 	height: 20%;
 	min-width: 5%;
-	top: 29.3%;
-	transform: translateY(-70.7%);
+	top: 35.9%;
+	transform: translateY(-64.1%);
 	z-index: 30;
 }
 
@@ -753,9 +772,9 @@ label[for=googleplus] img{
 	margin-left: 35%;
 	height: 40%;
 	/*min-width: 5.1%;*/
-	top: -15%;
+	top: -8%;
 	width: 35%;
-	transform: translateY(-15%);
+	transform: translateY(-8%);
 	z-index: 28;
 }
 
@@ -767,9 +786,9 @@ label[for=googleplus] img{
 	margin-left: 35%;
 	height: 40%;
 	/*min-width: 5.1%;*/
-	top: -15%;
+	top: -8%;
 	width: 35%;
-	transform: translateY(-15%);
+	transform: translateY(-8%);
 	z-index: 28;
 }
 
@@ -810,8 +829,8 @@ label[for=googleplus] img{
 	float: left;
 	width: 100%;
 	min-height: 20%;
-	top: 30%;
-	transform: translateY(-70%);
+	top: 40%;
+	transform: translateY(-80%);
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
@@ -830,11 +849,11 @@ label[for=googleplus] img{
 
 .cus-graph-container {
 	position: absolute;
-	top: 62%;
-	transform: translateY(-38%);
+	top: 65%;
+	transform: translateY(-35%);
 	float: left;
 	margin-left: 5%;
-	height: 50%;
+	height: 45%;
 	width: 90%;
 }
 
@@ -995,6 +1014,7 @@ label[for=googleplus] img{
 	background-size: 100% 100%;
 	height: 100%;
 	width: 100%;
+
 }
 
 .ver-2-coming {
@@ -1015,7 +1035,7 @@ label[for=googleplus] img{
 }
 
 .grey-background-bottom-bar {
-	margin-top: 20px;
+	margin-top: 4em;
 	background: #f9f9f9;
 	background: -webkit-linear-gradient(#f5f5f5, #fff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#f5f5f5, #fff); /* For Opera 11.1 to 12.0 */
